@@ -302,7 +302,6 @@ export default function App() {
     a { text-decoration: none; }
   `;
 
-  const pad = isMobile ? "0 20px" : "0 40px";
   const secPad = isMobile ? "70px 20px" : "100px 40px";
   const h2Size = isMobile ? 32 : 44;
 
