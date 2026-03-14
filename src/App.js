@@ -546,7 +546,6 @@ export default function App() {
         <Reveal><p style={{ fontSize: 11, fontWeight: 700, color: "#f97316", letterSpacing: 5, textTransform: "uppercase", marginBottom: 10 }}>Toolkit</p></Reveal>
         <Reveal delay={100}><h2 style={{ fontSize: h2Size, fontWeight: 900, letterSpacing: -1.5, marginBottom: isMobile ? 30 : 48, fontFamily: "'Playfair Display', serif", color: "#f8fafc", lineHeight: 1.1 }}>Skills &<br /><span style={{ fontStyle: "italic", color: "#f97316" }}>expertise.</span></h2></Reveal>
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr 1fr" : "repeat(4, 1fr)", gap: 12 }}>
-          {SKILLS.map((s, i) => <SkillBar key={s.name} skill={s} delay={i * 70} />)}
         </div>
       </section>
 
